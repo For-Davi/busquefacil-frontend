@@ -8,7 +8,7 @@ defineOptions({
 const searchProduct = ref<string>('');
 </script>
 <template>
-  <nav class="full-width bg-blue-grey-1">
+  <nav class="full-width bg-blue-grey-2">
     <q-toolbar class="row justify-between">
       <div class="col">
         <q-img src="/images/logo.png" width="120px" />

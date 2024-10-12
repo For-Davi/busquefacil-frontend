@@ -4,5 +4,10 @@ defineOptions({
 });
 </script>
 <template>
-  <div class="row items-center justify-evenly">ClientLayout</div>
+  <q-layout view="hHh lpR fFf">
+    <q-header> NAVBAR CLIENT </q-header>
+    <q-page-container>
+      <router-view />
+    </q-page-container>
+  </q-layout>
 </template>

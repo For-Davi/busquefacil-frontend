@@ -7,7 +7,7 @@ const routes: RouteRecordRaw[] = [
   },
   {
     path: '/dashboard',
-    meta: { requiresAuth: true },
+    // meta: { requiresAuth: true },
     children: [
       {
         path: '',
@@ -15,12 +15,13 @@ const routes: RouteRecordRaw[] = [
       },
       {
         path: 'client',
+        name: 'dashboard-client',
         component: () => import('../layouts/ClientLayout.vue'),
         // meta: { requiresAuth: true },
         children: [
           {
             path: '',
-            name: 'dashboard-client',
+            // name: 'dashboard-client',
             component: () => import('../pages/ClientDashboard.vue'), // Componente para o cliente logado
           },
         ],

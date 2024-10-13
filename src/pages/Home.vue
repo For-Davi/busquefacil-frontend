@@ -2,6 +2,7 @@
 import NavbarHome from 'src/components/headers/NavbarHome.vue';
 import NavbarFilter from 'src/components/headers/NavbarFilter.vue';
 import Banner from 'src/components/content/Banner.vue';
+import FiltersRound from 'src/components/content/FiltersRound.vue';
 
 defineOptions({
   name: 'Home',
@@ -12,5 +13,6 @@ defineOptions({
     <NavbarHome />
     <NavbarFilter />
     <Banner />
+    <FiltersRound />
   </div>
 </template>

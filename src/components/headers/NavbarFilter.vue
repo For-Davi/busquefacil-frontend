@@ -5,7 +5,7 @@ defineOptions({
   name: 'NavbarFilter',
 });
 
-const filter = ref<string>('mails');
+const filter = ref<string>('');
 </script>
 <template>
   <nav class="full-width bg-blue-grey-1">

@@ -73,7 +73,7 @@ const optionsFiltersRounded = reactive<Array<CardFilterRounded>>([
 ]);
 </script>
 <template>
-  <section class="full-width bg-blue-grey-1 row">
+  <section class="full-width row">
     <div
       class="col-2 q-my-sm"
       v-for="(card, index) in optionsFiltersRounded"
